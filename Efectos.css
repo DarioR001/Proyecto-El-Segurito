@@ -4,8 +4,7 @@
     border-radius: 3rem;
 }
 
-/*seguridad*/
-
+/*seguridad*/ /*incendio*/ /*incendio*/
 
 div img {
     transition: all 1s;
@@ -16,5 +15,41 @@ div img:hover {
     border-radius: 3rem;
 }
 
-/*incendio*/
+
+/*modificando subtitulos*/
+
+/*home*/
+
+.animate__animated {
+    animation-delay: 1s;
+}
+
+.p {
+    animation-iteration-count: infinite;
+}
+
+.tituloseg {
+    animation-name: efecto1;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+}
+
+@keyframes efecto1 {
+    0% {
+        font-size: 150%;
+        color: black;
+    }
+
+    50% {
+        font-size: 200%;
+        color:brown;
+    }
+
+    100% {
+        color: blue;
+        font-size: 150%;
+    }
+}
 
