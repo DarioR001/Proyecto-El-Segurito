@@ -1,0 +1,580 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("assets/fondopagina.jpg");
+    /*overflow: auto; overflox: excedente*/
+}
+
+header {
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+/*Formato*/
+
+/*Index*/
+
+.mainInd {
+    display: grid;
+}
+
+.navDesktop {
+    grid-area: navDesk;
+}
+.navCelu {
+    grid-area: navCelu;
+}
+.section1 {
+    grid-area: section1;
+}
+
+.navCelu2 {
+    grid-area: navcelu2;
+}
+
+.navCelu3 {
+    grid-area: navcelu3
+}
+
+.parralax {
+    grid-area: parralax;
+}
+
+.section2 {
+    grid-area: section2;
+}
+
+.section3 {
+    grid-area: section3;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+    /*navegador de escritorio*/
+
+span img {
+    height: 200px;
+}
+
+.navegacion {
+    background-color: rgba(127, 179, 213);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+.menu li a:hover{
+    color: gold;
+    transition: all .3s;
+    
+}
+
+.imagenalineacion {
+    height: 50px;
+    position: absolute;
+    left: 0%;
+    margin-left: 2rem;
+    transition: all 1s;
+}
+
+.imagenalineacion:hover {
+    height: 60px;
+}
+
+.menu > li {
+    font-size: 1.3rem;
+    padding: 15px 5px;
+    display: inline-block;    
+}
+
+.menu > li > a{
+    text-decoration: none;
+    color:rgb(49, 47, 47);
+    padding: 25px 15px;
+    font-weight: bold;
+    
+}
+
+.submenu{
+    position: absolute;
+    font-size: 1em;
+    width: 10rem;
+    list-style: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.8s;
+    margin-top: 10px;
+
+}
+
+.submenu li a{
+    display: block;
+    background-color: rgba(127, 179, 213);
+    color:rgb(49, 47, 47);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10% 0% 5% 7.5%;    
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.imgflex {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem auto 2rem auto;
+}
+
+.img {
+    width: 20rem;
+    transition: all 2s;
+}
+
+.img:hover {
+    width: 21rem;
+    height: 15rem;
+}
+
+/*Navegador celular*/
+ 
+.navCelu {
+    background-color: rgba(127, 179, 213);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+}
+
+.icono {
+    height: 3.5rem;
+    margin-bottom: -0.22rem;
+    margin-left: -3rem;
+    margin-right: 3rem;
+}
+
+
+.navCelu2, .navCelu3 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/*Section 1 index*/
+
+
+.section1 {
+    color: black;
+    padding: 2rem;
+    padding-bottom: 0rem;
+    font-size: 2rem;
+}
+.Text {
+    opacity: 0.8;
+}
+
+/*parralax index*/
+
+.p {
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+section article h3 {
+    margin-bottom: 1.5rem;
+}
+
+.parralax {
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: url("assets/gradient-ga107f7adc_1920.jpg");
+    background-attachment: fixed;
+}
+
+/*section 2 y tabla index*/
+
+.section2 {
+    font-size: 2rem;
+    padding: 1rem;
+    
+}
+
+.tabla {
+    margin: 2.5rem auto;
+    text-align: left;
+    border-radius: 1rem;
+    border: solid 0.3rem rgba(49, 72, 110, 0.582);
+        
+}
+.titulotabla {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+th, td{
+    padding: 1rem;
+    align-items: center;
+    opacity: 0.8;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tr:hover td{
+    color: rgb(235, 150, 22);
+    transition: all .6s;
+}
+
+thead {
+    background-color: rgba(127, 179, 213);
+    color: black;
+    border: solid 3px rgba(49, 72, 110, 0.582);
+    border-radius: 0.3rem;
+}
+
+/*section 3 idenx*/
+
+.section3 {
+    background-image: url("assets/gradient-ga107f7adc_1920.jpg");
+    padding-bottom: 4rem;
+}
+
+.sub{
+    color: black;
+    font-size: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.boxmodel {
+    background-color: rgba(242, 244, 247, 0.911);
+    font-size: 1.5rem;
+    width: 25rem;
+    height: 20rem;
+    overflow:auto; 
+    margin-top: 3rem;
+    padding: 1rem;
+    border-style: groove;
+    border-width: 1rem;
+    border-color: rgba(127, 179, 213);
+}
+
+.footer {
+    padding: 2rem;
+    font-size: 1rem;
+   
+}
+
+/* CONTACTO*/
+
+   
+.cuadros {
+    grid-area: cuadros;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.div1{
+    color: black;
+    font-size: 1.5rem;
+    align-content: center;
+    
+}
+
+.Contacto table{
+    background-color: white;
+}
+
+.Contacto td{
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.Contacto th{
+    color: white;
+    font-size: 1.5rem;
+    opacity: 2;
+    
+}
+
+.Contacto a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.Contacto a:hover{
+    text-decoration: underline;
+    color: rgb(235, 150, 22);
+}
+
+.formulario{
+    background-image: url("assets/fondoformulario.jpg");
+    padding: 1rem;
+    border-radius: 1rem;
+    font-family:'Mochiy Pop P One', sans-serif;
+    color: whitesmoke; 
+    width: 29rem;
+    
+}
+
+.formulario > h3  {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.campo{
+    width: 100%;
+    background: whitesmoke;
+    padding: 0.7rem;
+    border-radius: 0.2rem;
+    margin-bottom: 0.8rem;
+    border: solid 1px black;
+    font-size:'Mochiy Pop P One', sans-serif;
+    font-size: 1.3rem;
+}
+
+.formulario p{
+    padding: 0.7rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.formulario a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.formulario a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.boton{
+    width: 100%;
+    background: white;
+    border: none;
+    padding: 1.2rem;
+    color: rgb(235, 150, 22);
+    margin-top: 1.8rem;
+    font-size: 1.3rem;
+}
+
+.boton:hover{
+    background-color: rgba(14, 98, 224, 0.911);
+    color: white;
+    transition: all .6s;
+}
+
+.footer {
+    font-size: 1rem;
+}
+
+/*Seguridad en el hogar*/
+
+.portadaseg {
+    grid-area: portadaseg;
+}
+.section1Seg {
+    grid-area: section1Seg;
+}
+
+.section2Seg {
+    grid-area: section2Seg
+}
+
+.section3Seg {
+    grid-area: section3Seg;
+}
+
+.portadaseg{
+    display: flex;
+    justify-content: center;  
+}
+    
+.tituloseg{
+    text-align: center;
+    margin: 2rem;
+    color: rgba(14, 98, 224, 0.911);
+    font-weight: bold;
+    font-size: 2rem;
+       
+} 
+
+.pseg{
+    padding: 1rem;
+    opacity: 0.8;
+    font-size: 1.3rem;
+}
+
+.subtituloseg{
+    padding: 2rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: rgba(14, 98, 224, 0.911);
+    opacity: 0.9;
+
+}
+
+.section2Seg {
+    display: flex;
+    justify-content: center;
+}
+
+#tablaseg {
+    width: 40rem;
+    margin: 1rem;
+}
+
+#tablaseg th{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.videoseg {
+    display: flex;
+    justify-content: center;
+    margin: 25px auto;
+    padding-bottom: 30px;
+}
+
+.videoseg p {
+    display: absolute;
+    justify-items: center;
+}
+
+#titulovideo {
+    font-size: 170%;
+    padding-top: 35px;
+    padding-bottom: -25px;
+}
+
+/*Incendio*/
+
+.portadaInc {
+    grid-area: portadaInc;
+}
+.section1Inc {
+    grid-area: section1Inc;
+}
+.section2Inc {
+    grid-area: section2Inc;
+}
+.section3Inc {
+    grid-area: section3Inc;
+}
+.section4inc {
+    grid-area: section4Inc;
+}
+
+
+.portadaInc{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.section1Inc {
+    padding: 3rem;
+}
+
+.section2Inc th {
+    font-size: 2rem;
+}
+
+.section2Inc td {
+    font-size: 1.5rem;
+}
+
+.section3Inc {
+    padding: 3rem;
+}
+
+.tituloinc{
+    text-align: left;
+    margin: 2rem;
+    margin-top: 4rem;
+    color: rgba(14, 98, 224, 0.911);
+    font-size: 2rem;
+}
+
+.pinc{
+    margin: 2rem;
+    margin-left: 4rem;
+    font-size: 1.3rem;
+}
+
+.titulovid{
+    text-align: center;
+    color: rgba(14, 98, 224, 0.911);
+    font-size: 2rem;
+}
+
+/*Primeros auxitios*/
+
+.navDesktop {
+    grid-area: navDesktop;
+}
+.portadaPA {
+    grid-area: portadaPA;
+}
+
+.section1PA {
+    grid-area: section1PA;
+}
+
+.section2PA {
+    grid-area: section2PA;
+}
+
+.section3PA {
+    grid-area: section3PA;
+}
+
+.section4PA {
+    grid-area: section4PA;
+}
+
+
+.titulopri {
+    font-size: 2rem;
+    color: rgba(14, 98, 224, 0.911);
+    margin-top: 1rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.portadaPA {
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem;
+}
+
+.spotify {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+

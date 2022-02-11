@@ -1,0 +1,486 @@
+
+        /* Tamaño mobile*/
+
+/*INDEX*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Oswald&family=Roboto:wght@100;300&display=swap');
+
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+    .mainInd {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto;
+        grid-template-areas: 
+        "navCelu" 
+        "section1"
+        "navcelu2" 
+        "navcelu3" 
+        "parralax" 
+        "section2" 
+        "section2" 
+        "section3" 
+        "footer";
+    }
+
+    .navDesktop {
+        display: none;
+    }
+
+    .section1 .img {
+        display: none;
+    }
+
+
+    .section3flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        
+
+/*Contacto*/
+
+    .mainC {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        grid-template-areas:
+        "navCelu" 
+        "cuadros"
+        "mapaMov"
+        "footer"
+    }
+
+    .mapa {
+        display: none;
+    }
+
+    .div1 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .mapaMov {
+        display: flex;
+        justify-content: center;
+        grid-area: mapaMov;
+        margin-top: 2rem;
+    }
+
+    /*Seguridad*/
+
+    .mainSeguridad {
+        display: grid;
+        grid-template-columns: auto;
+        grid-row: auto;
+        grid-template-areas: 
+        "navCelu"
+        "section1Seg"
+        "section2Seg"
+        "section3Seg"
+        "footer";
+    }
+
+    .portadaseg {
+        display: none;
+    }
+
+    .tituloseg {
+        font-size: 3rem;
+    }
+    .pseg {
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    .subtituloseg {
+        font-size: 2.5rem;
+        padding: 2rem;
+    }
+
+    .section2Seg td {
+        font-size: 2rem;
+    }
+    
+    #titulovideo {
+        font-size: 2.5rem;
+    }
+
+    /*Incendio*/
+
+    .mainIncendio {
+        display: grid;
+        grid-template-columns: auto;
+        grid-row: auto;
+        grid-template-areas: 
+        "navCelu"
+        "section1Inc"
+        "section2Inc"
+        "section3Inc"
+        "section4Inc"
+        "footer";
+    }
+
+    .portadaInc {
+        display: none;
+    }
+
+    .section1Inc {
+        margin-bottom: -4rem;
+    }
+
+    .section2Inc {
+        margin-bottom: -4rem;
+        padding: 2rem;
+    }
+
+    .section2Inc td {
+        font-size: 2rem;
+    }
+
+    .tituloinc {
+        font-size: 3rem;
+    }
+
+    .pinc {
+        font-size: 2rem;
+    }
+
+    .titulovid {
+        font-size: 2.5rem;
+    }
+
+    iframe {
+        padding: 2rem;
+    }
+
+    /*Primeros Auxilios*/
+
+    .portadaPA {
+        display: none;
+    }
+
+    .mainPA {
+        display: grid;
+        grid-template-columns: auto;
+        grid-row: auto;
+        grid-template-areas: 
+        "navCelu"
+        "section1PA"
+        "section2PA"
+        "section3PA"
+        "section4PA"
+        "footer";
+    }
+
+    .section1PA {
+        padding: 2.5rem;
+    }
+
+    .section2PA {
+        font-size: 2rem;
+        padding: 2.5rem;
+    }
+
+    .section3PA {
+        padding: 2.5rem;
+    }
+
+  
+}
+
+        /*Tamaño Tablet*/
+
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+
+    .mainInd{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-areas: 
+        "navDesktop"
+        "section1"
+        "parralax"
+        "section2"
+        "section3"
+        "footer";
+    }
+
+    .navCelu, .navCelu2, .navCelu3 {
+        display: none;
+    }
+
+    .navDesktop .navrespon {
+        display: none;
+    }
+
+    header nav ul li a {
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+
+    .section3 .sub{
+        font-size: 2.34rem;
+    }
+
+    .section3 p {
+        font-size: 1.8rem;
+    }
+
+    .section3flex {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .footer {
+        font-size: 1.5rem
+    }
+
+
+    /*contacto*/
+
+    .mainC {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        grid-template-areas:
+        "navDesktop" 
+        "cuadros"
+        "mapaMov"
+        "footer"
+    }
+
+    .mapa {
+        display: none;
+    }
+
+    
+    .navDesktop li a {
+        font-size: 1.2rem;
+    }
+
+    .cuadros {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+  
+    .cuadros .div1 td, .cuadros .div1 th {
+        font-size: 80%;
+    }
+    .cuadros .formulario .campo, .cuadros .formulario h3, .cuadros .formulario .boton  {
+        font-size: 100%;
+    }
+
+    .formulario {
+        width: 24rem;
+    }
+
+    .formulario p {
+        font-size: 0.9rem;
+    } 
+
+    .mapaMov {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        font-size: 0.8rem;
+    }
+
+    /*Seguridad*/
+
+    .mainSeguridad {
+        display: grid;
+        grid-template-columns: auto;
+        grid-row: auto;
+        grid-template-areas: 
+        "navDesktop"
+        "portadaseg"
+        "section1Seg"
+        "section2Seg"
+        "section3Seg"
+        "footer";
+    }
+
+    .portadaseg img {
+        height: 400px;
+    }
+
+    .section1Seg{
+        padding: 3rem;
+    }
+
+    .section2Seg td {
+        font-size: 1.5rem;
+    }
+
+    #titulovideo {
+        font-size: 2rem;
+    }
+
+    /*incendio*/
+
+    .portadaInc img {
+        height: 350x;
+        margin-bottom: -4.5rem;
+    }
+
+    .section2Inc {
+        margin-bottom: -4rem;
+    }
+
+    /*Primeros auxilios*/
+
+    .portadaPA img {
+        height: 250px;
+    }
+
+    .section1PA h2 {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .section1PA {
+        padding: 2.5rem;
+        padding-top: 0rem;
+    }
+
+    .section1PA p {
+        font-size: 2rem;
+    }
+
+    .section2PA {
+        font-size: 2rem;
+        padding: 2.5rem;
+    }
+
+    #tablapri {
+        width: 700px;
+    }
+
+}
+                            /*Pantalla de escritorio*/
+
+
+@media screen and (min-width: 1200px) {
+
+.navCelu, .navCelu2, .navCelu3 {
+    display: none;
+}
+
+/*Index*/
+.mainInd {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: auto;
+    grid-template-areas:
+    "navDesktop"
+    "section1"
+    "parralax"
+    "section2"
+    "section3"
+    "footer";
+}   
+
+header nav ul li a {
+    font-size: 1.3rem;
+}
+
+.section1, .parralax .p, .section2, .boxmodel  {
+    font-size: 1.3rem;
+}
+
+.section3 .sub{
+    font-size: 1.5rem;
+}
+
+.section3flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.parralax {
+    padding: 3rem 0 3rem 0;
+}
+
+/*Contacto*/
+
+.mainC {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-template-areas:
+    "navDesktop" 
+    "cuadros"
+    "mapa"
+    "footer"
+}
+
+.mapaMov {
+    display: none;
+}
+.cuadros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+
+/*seguridad*/
+
+.mainSeguridad {
+    display: grid;
+    grid-template-columns: auto;
+    grid-row: auto;
+    grid-template-areas: 
+    "navDesktop"
+    "portadaseg"
+    "section1Seg"
+    "section2Seg"
+    "section3Seg"
+    "footer";
+}
+
+.portadaseg img {
+    height: 500px;
+}
+
+.section2Seg td {
+    font-size: 1.5rem;
+}
+
+.section1Seg {
+    padding: 3rem;
+}
+
+#tablaseg {
+    width: 700px;
+}
+
+/*incendio*/
+
+.section2PA {
+    font-size: 1.5rem;
+}
+
+#tablapri {
+    width: 700px;
+}
+
+
+.navCelu, .navCelu2, .navCelu3 {
+    display: none;
+}
+
+}
