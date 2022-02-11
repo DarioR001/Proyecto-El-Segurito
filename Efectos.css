@@ -1,0 +1,20 @@
+/*Home*/
+
+.img:hover {
+    border-radius: 3rem;
+}
+
+/*seguridad*/
+
+
+div img {
+    transition: all 1s;
+}
+
+div img:hover {
+    transform: scale(0.9);
+    border-radius: 3rem;
+}
+
+/*incendio*/
+
