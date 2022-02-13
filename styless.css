@@ -31,11 +31,40 @@
         display: none;
     }
 
+    .section1 h2 {
+        font-size: 2.5rem;
+    }
+
+    .section1 p {
+        font-size: 1.5rem;
+    }
+
+    span p {
+        font-size: 2rem;
+        text-decoration:underline;
+    }
+    
+    .parralax h3 {
+        font-size: 2rem;
+    }
+
+    .parralax p {
+        font-size: 1.5rem;
+    }
+
+    .section2 h3 {
+        font-size: 2rem;
+    }
 
     .section3flex {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .boxmodel {
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
         
 
@@ -90,16 +119,16 @@
         font-size: 3rem;
     }
     .pseg {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 2rem;
     }
     .subtituloseg {
-        font-size: 2.5rem;
+        font-size: 2rem;
         padding: 2rem;
     }
 
     .section2Seg td {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     
     #titulovideo {
@@ -134,20 +163,24 @@
         padding: 2rem;
     }
 
+    .section2Inc th {
+        font-size: 1.8rem;
+    }
+
     .section2Inc td {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .tituloinc {
-        font-size: 3rem;
-    }
-
-    .pinc {
         font-size: 2rem;
     }
 
+    .pinc {
+        font-size: 1.7rem;
+    }
+
     .titulovid {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
 
     iframe {
@@ -214,9 +247,34 @@
         display: none;
     }
 
-    header nav ul li a {
-        font-size: 2rem;
+    div header nav ul li a {
         margin-right: 1rem;
+        font-size: 2rem;
+    }
+
+    .section1 h2 {
+        font-size: 2.5rem;
+    }
+
+    .section1 p {
+        font-size: 1.5rem;
+    }
+
+    .parralax h3 {
+        font-size: 2rem;
+    }
+
+    .parralax p {
+        font-size: 1.5rem;
+    }
+
+    .section2 h3 {
+        font-size: 2rem;
+    }
+
+    .section2 h3 {
+        font-size: 2.3rem;
+        text-decoration: underline;
     }
 
     .section3 .sub{
@@ -233,8 +291,8 @@
         
     }
 
-    .footer {
-        font-size: 1.5rem
+    .footer samp {
+        font-size: 1.3rem
     }
 
 
@@ -255,8 +313,7 @@
         display: none;
     }
 
-    
-    .navDesktop li a {
+    div header nav ul li a {
         font-size: 1.2rem;
     }
 
@@ -315,6 +372,14 @@
         padding: 3rem;
     }
 
+    .section1Seg .pseg {
+        font-size: 1.5rem;
+    }
+
+    .section1Seg h2 {
+        font-size: 2rem;
+    }
+
     .section2Seg td {
         font-size: 1.5rem;
     }
@@ -334,6 +399,26 @@
         margin-bottom: -4rem;
     }
 
+    .section1Inc p {
+        font-size: 1.5rem;
+    }
+
+    .section2Inc th {
+        font-size: 1.8rem;
+    }
+
+    .section2Inc td {
+        font-size: 1.5rem;
+    }
+
+    .section3Inc h2 {
+        font-size: 1.8rem;
+    }
+
+    .section3Inc li {
+        font-size: 1.5;
+    }
+
     /*Primeros auxilios*/
 
     .portadaPA img {
@@ -351,12 +436,21 @@
     }
 
     .section1PA p {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .section2PA {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 2.5rem;
+    }
+
+    .section4PA h2 {
+        font-size: 1.5rem;
+        padding: 2.5rem;
+    }
+
+    .footer samp {
+        font-size: 1rem;
     }
 
     #tablapri {
@@ -395,8 +489,14 @@ header nav ul li a {
     font-size: 1.3rem;
 }
 
+.section2 h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
 .section3 .sub{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    text-decoration: underline;
 }
 
 .section3flex {
@@ -457,7 +557,7 @@ header nav ul li a {
 }
 
 .section2Seg td {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .section1Seg {
@@ -474,6 +574,10 @@ header nav ul li a {
     font-size: 1.5rem;
 }
 
+.section2Inc th {
+    font-size: 1.5rem;
+}
+
 #tablapri {
     width: 700px;
 }
@@ -481,6 +585,13 @@ header nav ul li a {
 
 .navCelu, .navCelu2, .navCelu3 {
     display: none;
+}
+
+/*Primeros Auxilios*/
+
+.section4PA h2 {
+    font-size: 1.5rem;
+    padding: 2rem 4rem;
 }
 
 }
